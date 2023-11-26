@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "html-minifier": "^4.0.0",
+    "uglify-js": "^3.17.4",
+    "uglifycss": "^0.0.29"
+  },
+  "scripts": {
+    "build:html": "html-minifier --input-dir src/index.html --output-dir dist --collapse-whitespace --minify-css --minify-js",
+    "build:css": "uglifycss src/css/226ff7f056838ffa.css > dist/css/226ff7f056838ffa.min.css",
+    "build:css2": "uglifycss src/css/ae4ed9c503fd1e33.css > dist/ae4ed9c503fd1e33.min.css",
+    "build:js": "uglifyjs src/js/_app-5f623f75e432af53.js -o dist/js/_app-5f623f75e432af53.min.js",
+    "build:js2": "uglifyjs src/js/_buildManifest.js -o dist/js/_buildManifest.min.js",
+    "build:js3": "uglifyjs src/js/_middlewareManifest.js -o dist/js/_middlewareManifest.min.js",
+    "build:js4": "uglifyjs src/js/_ssgManifest.js -o dist/js/_ssgManifest.min.js",
+    "build:js5": "uglifyjs src/js/[username]-2aa84a970b2affe9.js -o dist/js/[username]-2aa84a970b2affe9.min.js",
+    "build:js6": "uglifyjs src/js/360-d653ffa85d8dc310.js -o dist/js/360-d653ffa85d8dc310.min.js",
+    "build:js7": "uglifyjs src/js/669-ea9be32ba3306a6d.js -o dist/js/669-ea9be32ba3306a6d.min.js",
+    "build:js8": "uglifyjs src/js/demo.js -o dist/js/demo.min.js",
+    "build:js9": "uglifyjs src/js/framework-a87821de553db91d.js -o dist/js/framework-a87821de553db91d.min.js",
+    "build:js10": "uglifyjs src/js/main-23525382d18f65b2.js -o dist/js/main-23525382d18f65b2.min.js",
+    "build:js11": "uglifyjs src/js/polyfills-5cd94c89d3acac5f.js -o dist/js/polyfills-5cd94c89d3acac5f.min.js",
+    "build:js12": "uglifyjs src/js/webpack-5752944655d749a0.js -o dist/js/webpack-5752944655d749a0.min.js"
+  }
+}
