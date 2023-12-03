@@ -14,7 +14,8 @@
     <meta name="description" content="Come to me with respect nun less. &amp; Developer - UI/GFX Designer.">
     <meta property="og:title" content="Garxu">
     <meta property="og:description" content="Come to me with respect nun less. &amp; Developer - UI/GFX Designer.">
-    <meta property="og:image" content="https://media.discordapp.net/attachments/1096969163676856350/1171821196917096568/webdemon.gif?width=252&height=252">
+    <meta property="og:image"
+        content="https://media.discordapp.net/attachments/1096969163676856350/1171821196917096568/webdemon.gif?width=252&height=252">
     <meta property="og:image:alt" content="Come to me with respect nun less. &amp; Developer - UI/GFX Designer.">
     <meta property="theme-color" content="#2B2D31">
     <meta property="og:type" content="article">
@@ -91,15 +92,10 @@
         </div>
     </div>
 
-    <header>
-        <h1>Garxulogy</h1>
-        <nav>
-            <ul>
-                <li><a href='./works.html'><button class="nav-button">W O R K S</button></a></li>
-                <li><a href='./nohello.html'><button class="nav-button">N O  H E L L O</button></a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="button-container">
+        <button id="worksButton" onclick="navigateTo('works')">WORK</button>
+        <button id="nohelloButton" onclick="navigateTo('nohello')">NO HELLO</button>
+    </div>
     
     <footer>
         <p>&copy; 2023 Garxu. All rights reserved.</p>
@@ -251,7 +247,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-sm text-gray-300 ">Come to me with respect nun less. &amp; Developer - UI/GFX Designer.</p>
+                            <p class="text-sm text-gray-300 ">Come to me with respect nun less. &amp; Developer - UI/GFX
+                                Designer.</p>
                         </div>
                     </div>
                     <div class="flex md:flex-row flex-col w-full justify-between gap-2">
@@ -657,15 +654,29 @@
                             <div
                                 class="group flex cursor-pointer flex-col items-center justify-center transition-all duration-300 ease-linear">
                                 <div class=" flex cursor-pointer flex-col items-center justify-center rounded-3xl p-2 shadow-lg transition-all duration-300 ease-linear hover:rounded-xl hover:text-white hover:shadow-darkM-700/20"
-                                fill="#ffffff" width="201px" height="201px" viewBox="-3.36 -3.36 30.72 30.72" role="img" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke_width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><rect x="-3.36" y="-3.36" width="30.72" height="30.72" rx="15.36" fill="#7ed0ec" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke_linecap="round" stroke_linejoin="round" stroke="#000000" stroke_width="0.8160000000000001">
-                                    <path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z">
-                                </path></g><g id="SVGRepo_iconCarrier">
-                                    <path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z">
-                                </path></g></svg>
-                                <div class="relative flex justify-center">
-                                    <div class="fixed mt-2 scale-0 rounded p-2 text-sm font-semibold text-white shadow-lg transition-all duration-300 group-hover:scale-100"
-                                        style="background-color:#33333380">
-                                        <p class="hidden w-full max-w-2xl group-hover:block">Ko-Fi</p>
+                                    fill="#ffffff" width="201px" height="201px" viewBox="-3.36 -3.36 30.72 30.72"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"
+                                    stroke_width="0.00024000000000000003">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)">
+                                        <rect x="-3.36" y="-3.36" width="30.72" height="30.72" rx="15.36" fill="#7ed0ec"
+                                            strokewidth="0"></rect>
+                                    </g>
+                                    <g id="SVGRepo_tracerCarrier" stroke_linecap="round" stroke_linejoin="round"
+                                        stroke="#000000" stroke_width="0.8160000000000001">
+                                        <path
+                                            d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z">
+                                        </path>
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z">
+                                        </path>
+                                    </g></svg>
+                                    <div class="relative flex justify-center">
+                                        <div class="fixed mt-2 scale-0 rounded p-2 text-sm font-semibold text-white shadow-lg transition-all duration-300 group-hover:scale-100"
+                                            style="background-color:#33333380">
+                                            <p class="hidden w-full max-w-2xl group-hover:block">Ko-Fi</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -674,10 +685,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    <script id="__NEXT_DATA__"
-        type="application/json">{"props":{"pageProps":{"bio":{"ranks":["Verified"],"_id":"2082d908-7c65-4fc3-b02a-5f50f9141543","socials":[{"name":"YouTube","url":"https://www.youtube.com/@Trezzuun/featured"},{"name":"Spotify","url":"https://open.spotify.com/user/314urhjcbr4l3neupemzntfzysmy"},{"name":"NameMC","url":"https://namemc.com/profile/NotCliqnt.2"},{"name":"Discord","url":"https://discord.gg/UWYS49H2Aw"},{"name":"Twitter","url":"https://twitter.com/realgarxu"},{"name":"Github","url":"https://github.com/realcelo"},{"name":"Ko-Fi","url":"https://ko-fi.com/garxu"}],"songs":[{"name":"Ice Spice - Deli","url":"media/3ixkhh5bv1.mp3"}],"name":"Garxu","description":"Come to me with respect nun less.","title":"Garxu","color":"#2B2D31","video":"Y2Mate.is - Sleepy Hallow - Die Young (Official Video) ft. 347aidan-SPlOfpaY_qc-1080p-1654116111101.mp4","uid":1,"__v":0,"url":"Garxu","views":10,"animatedTitle":true,"countViews":true,"background":{"url":"media/jqggix5mxz.mp4","type":"video"},"pfp":{"discord":false,"url":"images/15qdi4rdtd.gif"},"presence":true,"layout":0,"autoplayfix":true,"embeds":["","",""],"primarycolor":"#1D1D1D","accentcolor":"#333333","moneyBadge":false,"bio_presence":{"_id":"787915661186957312","tag":"garxu","pfp":"https://cdn.discordapp.com/avatars/787915661186957312/10b2855c2bcbb4c5e9f423a2fd756ab6.webp?size=1024&width=0&height=256","platform":{"desktop":"dnd"},"status":"dnd","activities":[{"applicationId":null,"assets":{"smallImage":null,"largeImage":"https://files.catbox.moe/awc3a2.png","smallText":null,"largeText":"AI YoungBoy 2"},"details":"GFX Designer, UI Designer","emoji":null,"name":"Trezzuun","state":"","type":"Playing","timestamps":{"start":"2023-11-13T16:56:34.681Z","end":null}},{"applicationId":"383226320970055681","assets":{"smallImage":"https://cdn.discordapp.com/app-assets/383226320970055681/565945770067623946.png?size=4096","largeImage":"https://cdn.discordapp.com/app-assets/383226320970055681/565945769320775680.png?size=4096","smallText":"Visual Studio Code","largeText":"Editing a TSX file"},"details":"In trezzuun-website - 0 problems found","emoji":null,"name":"Visual Studio Code","state":"Working on index.html:603:2,166","type":"Playing","timestamps":{"start":"2023-11-13T16:56:34.681Z","end":null}}],"badges":["HypeSquad Balance","Active Developer","Discord Nitro","Early Verified Bot Developer"],"customStatus":null}},"musicIndex":0},"__N_SSP":true},"page":"/[username]","query":{"username":"trezzuun"},"buildId":"32sXlZSkq0GskQZcimWxz","isFallback":false,"gssp":true,"scriptLoader":[]}</script>
+        <script id="__NEXT_DATA__"
+            type="application/json">{"props":{"pageProps":{"bio":{"ranks":["Verified"],"_id":"2082d908-7c65-4fc3-b02a-5f50f9141543","socials":[{"name":"YouTube","url":"https://www.youtube.com/@Trezzuun/featured"},{"name":"Spotify","url":"https://open.spotify.com/user/314urhjcbr4l3neupemzntfzysmy"},{"name":"NameMC","url":"https://namemc.com/profile/NotCliqnt.2"},{"name":"Discord","url":"https://discord.gg/UWYS49H2Aw"},{"name":"Twitter","url":"https://twitter.com/realgarxu"},{"name":"Github","url":"https://github.com/realcelo"},{"name":"Ko-Fi","url":"https://ko-fi.com/garxu"}],"songs":[{"name":"Michael Jackson - The Way You Make Me Feel (Official Video)","url":"media/3ixkhh5bv1.mp3"}],"name":"Garxu","description":"Come to me with respect nun less.","title":"Garxu","color":"#2B2D31","video":"Y2Mate.is - Sleepy Hallow - Die Young (Official Video) ft. 347aidan-SPlOfpaY_qc-1080p-1654116111101.mp4","uid":1,"__v":0,"url":"Garxu","views":10,"animatedTitle":true,"countViews":true,"background":{"url":"media/jqggix5mxz.mp4","type":"video"},"pfp":{"discord":false,"url":"images/15qdi4rdtd.gif"},"presence":true,"layout":0,"autoplayfix":true,"embeds":["","",""],"primarycolor":"#1D1D1D","accentcolor":"#333333","moneyBadge":false,"bio_presence":{"_id":"787915661186957312","tag":"garxu","pfp":"https://cdn.discordapp.com/avatars/787915661186957312/10b2855c2bcbb4c5e9f423a2fd756ab6.webp?size=1024&width=0&height=256","platform":{"desktop":"dnd"},"status":"dnd","activities":[{"applicationId":null,"assets":{"smallImage":"https://files.catbox.moe/yoprzm.png","largeImage":"https://files.catbox.moe/yoprzm.png","smallText":"Demon Time","largeText":"AI YoungBoy 2"},"details":"UI/GFX Designer, Developer","emoji":null,"name":"Best In The Game","state":"","type":"Playing","timestamps":{"start":"2023-11-13T16:56:34.681Z","end":null}},{"applicationId":"383226320970055681","assets":{"smallImage":"https://cdn.discordapp.com/app-assets/383226320970055681/565945770067623946.png?size=4096","largeImage":"https://cdn.discordapp.com/app-assets/383226320970055681/565945769320775680.png?size=4096","smallText":"Visual Studio Code","largeText":"Editing a TSX file"},"details":"In trezzuun-website - 0 problems found","emoji":null,"name":"Visual Studio Code","state":"Working on index.html:603:2,166","type":"Playing","timestamps":{"start":"2023-11-13T16:56:34.681Z","end":null}}],"badges":["HypeSquad Balance","Active Developer","Discord Nitro","Early Verified Bot Developer"],"customStatus":null}},"musicIndex":0},"__N_SSP":true},"page":"/[username]","query":{"username":"trezzuun"},"buildId":"32sXlZSkq0GskQZcimWxz","isFallback":false,"gssp":true,"scriptLoader":[]}</script>
 
-    </body>
+</body>
 
 </html>

@@ -707,7 +707,7 @@ nav ul1 li1 a {
 
 .nav-button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #242424;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -718,7 +718,7 @@ nav ul1 li1 a {
 }
 
 .nav-button:hover {
-    background-color: #ff5050;
+    background-color: #1a1a1a;
 }
 
 h4 {

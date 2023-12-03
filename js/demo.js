@@ -62,3 +62,7 @@ document.onkeydown = function (e) {
     return false;
   }
 };
+
+function navigateTo(page) {
+  window.location.href = `${page}.html`;
+}
