@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^work work.html [NC]
+RewriteRule ^nohello nohello.html [NC]
+RewriteRule ^index index.html [NC]
