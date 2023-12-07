@@ -66,3 +66,22 @@ document.onkeydown = function (e) {
 function navigateTo(page) {
   window.location.href = `${page}.html`;
 }
+
+
+// You can customize the error code and message
+const errorCode = 404;
+const errorMessage = "Page Not Found";
+
+// Display error information on the 404 page
+document.addEventListener("DOMContentLoaded", function () {
+    const errorCodeElement = document.querySelector(".error-code");
+    const errorMessageElement = document.querySelector(".error-message");
+
+    errorCodeElement.textContent = errorCode;
+    errorMessageElement.textContent = errorMessage;
+});
+
+// You can add more functionality, such as redirecting to the home page
+document.querySelector(".back-home").addEventListener("click", function () {
+    window.location.href = "index.html";
+});
