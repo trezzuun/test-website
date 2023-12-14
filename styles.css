@@ -315,7 +315,6 @@ body {
 
 .social-icons {
     margin-top: 130px;
-    /* Adjust the margin as needed */
     text-align: center;
 }
 
@@ -329,9 +328,9 @@ body {
 }
 
 .icon:hover {
-    width: 50px;
+    width: 43px;
     /* Increase the width by 2 pixels on hover */
-    height: 50px;
+    height: 43px;
     /* Increase the height by 2 pixels on hover */
 }
 
