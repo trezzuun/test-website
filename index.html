@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <meta name="robots"
             content="index, follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
@@ -89,80 +89,118 @@
             </svg>
         </div>
 
-        <!-- Your website content goes here (hidden initially) -->
-        <div id="websiteContent" style="display: none">
-            <!-- Your website content -->
+        <div class="christmas">
+            <h3>Until Christmas🎄</h3>
+        </div>
 
-            <div class="overlay-box">
-                <div class="logo-container">
-                    <img src="/media/demon gif.gif" alt="Logo" class="logo">
+        <div class="timer">
+            <div class="box">
+                <h2 id="days"></h2>
+                <h4>Days</h4>
+            </div>
+            <div class="box">
+                <h2 id="hrs"></h2>
+                <h4>Hours</h4>
+            </div>
+            <div class="box">
+                <h2 id="mins"></h2>
+                <h4>Minutes</h4>
+            </div>
+            <div class="box">
+                <h2 id="secs"></h2>
+                <h4>Seconds</h4>
+            </div>
+        </div>
 
-                    <div class="view-counter">
-                        <p>👁 <span id="viewCount">0</span></p>
+            <!-- Your website content goes here (hidden initially) -->
+            <div id="websiteContent" style="display: none">
+                <!-- Your website content -->
+
+                <div class="overlay-box">
+                    <div class="logo-container">
+                        <img src="/media/demon gif.gif" alt="Logo"
+                            class="logo">
+
+                        <div class="view-counter">
+                            <p>👁 <span id="viewCount">0</span></p>
+                        </div>
+
+                        <p class="username">GARXU</p>
                     </div>
 
-                    <p class="username">GARXU</p>
+                    <div class="badges">
+                        <span class="badge balance" title="Balance"><img
+                                src="/badges/balance.png"
+                                alt="HypeSquad Balance"></span>
+                        <span class="badge active" title="Active"><img
+                                src="/badges/active.png"
+                                alt="Active Developer"></span>
+                        <span class="badge nitro" title="Nitro"><img
+                                src="/badges/nitro.png" alt="Nitro"></span>
+                        <span class="badge booster" title="Booster"><img
+                                src="/badges/booster.png" alt="Booster"></span>
+                        <span class="badge developer" title="Developer"><img
+                                src="/badges/developer.png"
+                                alt="Early Developer"></span>
+                        <span class="badge verified" title="Verified"><img
+                                src="/badges/verified.png" alt="Verified"></span>
+                    </div>
+
+                    <div class="bio">"Wake up to reality! Nothing ever goes as planned in this accursed world. The longer you live, the more you realize that the only things that truly exist in this reality are merely pain."</div>
+
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/@Trezzuun/featured"
+                            target="_blank"><img src="/social/youtube.png"
+                                alt="YouTube"
+                                class="icon"></a>
+                        <a
+                            href="https://open.spotify.com/user/314urhjcbr4l3neupemzntfzysmy"
+                            target="_blank"><img src="/social/spotify.png"
+                                alt="Spotify"
+                                class="icon"></a>
+                        <a href="https://namemc.com/profile/NotCliqnt.2"
+                            target="_blank"><img
+                                src="/social/namemc.png" alt="NameMC"
+                                class="icon"></a>
+                        <a href="https://discord.gg/UWYS49H2Aw"
+                            target="_blank"><img
+                                src="/social/discord.png" alt="Discord"
+                                class="icon"></a>
+                        <a href="https://twitter.com/realgarxu"
+                            target="_blank"><img
+                                src="/social/twitter.png" alt="Twitter"
+                                class="icon"></a>
+                        <a href="https://github.com/trezzuun"
+                            target="_blank"><img
+                                src="/social/github.png" alt="GitHub"
+                                class="icon"></a>
+                        <a href="https://ko-fi.com/garxu" target="_blank"><img
+                                src="/social/kofi.png" alt="Ko-Fi"
+                                class="icon"></a>
+                    </div>
                 </div>
 
-                <div class="badges">
-                    <span class="badge balance" title="Balance"><img
-                            src="/badges/balance.png" alt="HypeSquad Balance"></span>
-                    <span class="badge active" title="Active"><img
-                            src="/badges/active.png" alt="Active Developer"></span>
-                    <span class="badge nitro" title="Nitro"><img
-                            src="/badges/nitro.png" alt="Nitro"></span>
-                    <span class="badge booster" title="Booster"><img
-                            src="/badges/booster.png" alt="Booster"></span>
-                    <span class="badge developer" title="Developer"><img
-                            src="/badges/developer.png" alt="Early Developer"></span>
-                    <span class="badge verified" title="Verified"><img
-                            src="/badges/verified.png" alt="Verified"></span>
-                </div>
+                <video muted autoplay loop>
+                    <source src="/audio/bmw_m42.mp4" type="video/mp4">
+                    <p>This browser does not support this type of video
+                        format.</p>
+                </video>
 
-                <div class="bio">"Wake up to reality! Nothing ever goes as planned in this accursed world. The longer you live, the more you realize that the only things that truly exist in this reality are merely pain."</div>
+                <audio loop autoplay volume="0.1">
+                    <source src="/audio/resonance.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <!-- Add other content on top of the video and audio -->
 
-                <div class="social-icons">
-                    <a href="https://www.youtube.com/@Trezzuun/featured"
-                        target="_blank"><img src="/social/youtube.png"
-                            alt="YouTube"
-                            class="icon"></a>
-                    <a
-                        href="https://open.spotify.com/user/314urhjcbr4l3neupemzntfzysmy"
-                        target="_blank"><img src="/social/spotify.png"
-                            alt="Spotify"
-                            class="icon"></a>
-                    <a href="https://namemc.com/profile/NotCliqnt.2"
-                        target="_blank"><img
-                            src="/social/namemc.png" alt="NameMC" class="icon"></a>
-                    <a href="https://discord.gg/UWYS49H2Aw" target="_blank"><img
-                            src="/social/discord.png" alt="Discord" class="icon"></a>
-                    <a href="https://twitter.com/realgarxu" target="_blank"><img
-                            src="/social/twitter.png" alt="Twitter" class="icon"></a>
-                    <a href="https://github.com/trezzuun" target="_blank"><img
-                            src="/social/github.png" alt="GitHub" class="icon"></a>
-                    <a href="https://ko-fi.com/garxu" target="_blank"><img
-                            src="/social/kofi.png" alt="Ko-Fi" class="icon"></a>
-                </div>
+                <script src="/script.js"></script>
+
+                <footer class="footer-bar">
+                    <div class="footer-content">
+                        <span>MADE WITH LOVE ❤️ / &copy; 2023 GARXU. ALL
+                            RIGHTS
+                            RESERVED.</span>
+                    </div>
+                </footer>
             </div>
-
-            <video autoplay muted loop>
-                <source src="/audio/bmw_m42.mp4" type="video/mp4">
-            </video>
-
-            <audio controls autoplay loop volume="0.1">
-                <source src="/audio/resonance.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio>
-            <!-- Add other content on top of the video and audio -->
-
-            <script src="/script.js"></script>
-
-            <footer class="footer-bar">
-                <div class="footer-content">
-                    <span>MADE WITH LOVE ❤️ / &copy; 2023 GARXU. ALL RIGHTS
-                        RESERVED.</span>
-                </div>
-            </footer>
-        </div>
-    </body>
-</html>
+        </body>
+    </html>
