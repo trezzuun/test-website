@@ -1,10 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-  let viewCount = localStorage.getItem("viewCount") || 0;
-  viewCount = parseInt(viewCount, 10) + 1;
-  localStorage.setItem("viewCount", viewCount);
-  document.getElementById("viewCount").textContent = viewCount;
-});
-
+// CHRISTMAS COUNTDOWN
 var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
 
 var x = setInterval(function() {
@@ -27,7 +21,9 @@ var x = setInterval(function() {
                 
                 document.getElementById("secs").innerHTML = seconds;
 }, 1000);
+// END OF CHRISTMAS COUNTDOWN
 
+// FUSING TEXT EFFECT
 const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
@@ -109,6 +105,7 @@ function animate() {
 }
 
 animate();
+// END OF FUSING TEXT EFFECT
 
 // Function to handle click event and hide the welcome screen
 function handleClick() {
@@ -138,3 +135,21 @@ document.onkeydown = function (e) {
     return false;
   }
 };
+// END OF WELCOME SCREEN
+
+
+// WEBSITE COUNTER
+var counterContainer = document.querySelector(".view-counter");
+var visitCount = localStorage.getItem("page_view");
+
+// Check if page_view entry is present
+if (visitCount) {
+  visitCount = Number(visitCount) + 1;
+  localStorage.setItem("page_view", visitCount);
+} else {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
+}
+counterContainer.innerHTML = visitCount;
+
+// END OF WEBSITE COUNTER

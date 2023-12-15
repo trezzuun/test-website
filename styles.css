@@ -338,7 +338,7 @@ body {
 /* Styling for the view counter */
 .view-counter {
     position: absolute;
-    top: calc(50% + 85px);
+    top: calc(50% + 110px);
     /* Update: move down by 20 pixels */
     left: 50%;
     transform: translate(-50%, -50%);
