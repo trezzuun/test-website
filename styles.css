@@ -223,11 +223,14 @@ body {
     /* Position the username relative to the box */
 
     background-image: linear-gradient(-225deg,
-            #294221 0%,
-            #385025 29%,
-            #891515 67%,
-            #B42D1A 87%,
-            #C6B173 100%);
+            #294221 5%,
+            #385025 20%,
+            #891515 40%,
+            #B42D1A 60%,
+            #C6B173 70%,
+            #71a14a 80%,
+            #385025 90%,
+            #294221 100%);
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
