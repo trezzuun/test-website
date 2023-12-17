@@ -1,0 +1,54 @@
+{
+  "animeList": [
+    {
+      "title": "Attack on Titan",
+      "genre": [
+        "Action",
+        "Drama",
+        "Fantasy"
+      ],
+      "episodes": 75,
+      "status": "Ongoing",
+      "image": "https://animetake.tv/cache/images/attack-on-titan.jpg",
+      "bio": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide...",
+      "detailedbio": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal Titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations. After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert join the brutal war against the Titans and race to discover a way of defeating them before the last walls are breached.",
+      "Alternativetitle": "Shingeki No Kyojin   進撃の巨人   Attack on Titans"
+    },
+    {
+      "title": "Naruto",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "episodes": 220,
+      "status": "Finished",
+      "image": "https://animetake.tv/cache/images/boruto-naruto-next-generations.jpg",
+      "bio": "Following the successful end of the Fourth Shinobi World War, Konohagakure has been enjoying a period of peace, prosperity..."
+    },
+    {
+      "title": "One Piece",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "episodes": 1000,
+      "status": "Ongoing",
+      "image": "https://animetake.tv/cache/images/one-piece.jpg",
+      "bio": "Gol D. Roger was known as the \"Pirate King,\" the strongest and most infamous being to have sailed the Grand Line. The capture and.."
+    },
+    {
+      "title": "Death Note",
+      "genre": [
+        "Mystery",
+        "Psychological",
+        "Supernatural"
+      ],
+      "episodes": 37,
+      "status": "Finished",
+      "image": "https://animetake.tv/cache/images/death-note.jpg",
+      "bio": "Brutal murders, petty thefts, and senseless violence pollute the human world. In contrast, the realm of death gods is a humdrum, unchanging..."
+    }
+  ]
+}

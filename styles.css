@@ -212,13 +212,13 @@ body {
 
 .username {
     font-size: 60px;
-    /* Increase the font size of the <link>username</link> */
+    /* Increase the font size of the .username */
     font-family: 'Roboto', sans-serif;
     /* Apply the Roboto bold font */
     font-weight: bold;
-    /* Apply bold font weight to the <link>username</link> */
+    /* Apply bold font weight to the .username */
     margin-top: 340px;
-    /* Move the <link>username</link> down by 100 pixels */
+    /* Move the .username down by 100 pixels */
     position: absolute;
     /* Position the username relative to the box */
 
@@ -507,6 +507,7 @@ audio {
         height: 90%;
         font-size: 1.1rem;
     }
+
     .social-icons,
     .icons,
     .bio {
@@ -524,6 +525,7 @@ audio {
         height: 90%;
         font-size: 1.1rem;
     }
+
     .social-icons,
     .icons,
     .bio {
@@ -541,6 +543,7 @@ audio {
         height: 90%;
         font-size: 1.1rem;
     }
+
     .social-icons,
     .icons,
     .bio {
@@ -558,6 +561,7 @@ audio {
         height: 80%;
         font-size: 1.1rem;
     }
+
     .social-icons,
     .icons,
     .bio {
@@ -575,6 +579,7 @@ audio {
         height: 75%;
         font-size: 1.1rem;
     }
+
     .social-icons,
     .icons,
     .bio {
@@ -592,17 +597,20 @@ audio {
         height: 75%;
         font-size: 1.1rem;
     }
+
     .social-icons,
     .icons {
         float: none;
         margin-top: 0px;
         font-size: 1.1rem;
     }
+
     .christmas h3 {
         float: none;
         margin-top: -250px;
         font-size: 0.8rem;
     }
+
     .box {
         float: none;
         width: 30%;
@@ -611,6 +619,7 @@ audio {
         margin-bottom: 170px;
         font-size: 0.8rem;
     }
+
     .timer {
         float: none;
         width: 40%;
@@ -619,6 +628,7 @@ audio {
         margin-bottom: 505px;
         font-size: 0.8rem;
     }
+
     .box h4 {
         float: none;
         width: 100%;
@@ -627,6 +637,7 @@ audio {
         margin-bottom: 10px;
         font-size: 0.5rem;
     }
+
     .box h2 {
         float: none;
         width: 40;
@@ -645,6 +656,7 @@ audio {
         height: 75%;
         font-size: 1.1rem;
     }
+
     .social-icons,
     .icons,
     .bio,
@@ -737,4 +749,24 @@ audio {
 .mscursor-nocursor {
     cursor: none !important;
 }
+
 /* END OF CUSTOM CURSOR */
+
+/* Button styling */
+#animesButton {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    /* Ensure the button is displayed above other content */
+}
+
+#animesButton:hover {
+    background-color: #333;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="anime.css">
+        <title>My Anime List</title>
+    </head>
+    <body>
+        <div class="header">
+            <input class="search" type="text" id="searchInput"
+                placeholder="Search anime...">
+            <select class="genrefilter" id="genreFilter">
+                <option value="all">All Genres</option>
+                <option value="Action">Action</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Supernatural">Supernatural</option>
+                <option value="Psychological">Psychological</option>
+                <option value="Mystery">Mystery</option>
+                <!-- Add more genre options here -->
+            </select>
+            <select class="statusfilter" id="statusFilter">
+                <option value="all">All Status</option>
+                <option value="Ongoing">Ongoing</option>
+                <option value="Finished">Finished</option>
+            </select>
+        </div>
+
+        <div class="anime-list">
+            <!-- Anime cards will be dynamically added here -->
+        </div>
+
+        <!-- Add a modal container to display detailed anime information -->
+        <div id="modalContainer" class="modal-container">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <div id="animeDetails"></div>
+            </div>
+        </div>
+
+        <footer class="footer-bar">
+            <div class="footer-content">
+                <span>⚠️ UNDER CONSTRUCTION / &copy; 2023 GARXU. ALL
+                    RIGHTS
+                    RESERVED. ⚠️</span>
+            </div>
+        </footer>
+
+        <script src="anime.js"></script>
+    </body>
+</html>
