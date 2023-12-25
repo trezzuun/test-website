@@ -127,8 +127,10 @@
                         class="logo">
 
                     <div class="view-counter">
-                        <p>👁 <span id="viewCount">0</span></p>
+                        <p>👁 <span id="visits">0</span></p>
                     </div>
+
+                    <!-- <div class="view-counter" id="visits"></div> -->
 
                     <p class="username">GARXU</p>
                 </div>
@@ -193,7 +195,8 @@
             </div>
 
             <video muted autoplay loop>
-                <source src="https://files.catbox.moe/vrxg41.mp4" type="video/mp4">
+                <source src="https://files.catbox.moe/vrxg41.mp4"
+                    type="video/mp4">
                 <p>This browser does not support this type of video
                     format.</p>
             </video>
@@ -205,6 +208,14 @@
             <!-- Add other content on top of the video and audio -->
 
             <script src="/script.js"></script>
+
+            <script>
+                function cb(response) {
+                    document.getElementById('visits').innerText = response.value;
+                }
+                </script>
+            <script async
+                src="https://api.countapi.xyz/hit/garxu.xyz/visits?callback=cb"></script>
 
             <footer class="footer-bar">
                 <div class="footer-content">
